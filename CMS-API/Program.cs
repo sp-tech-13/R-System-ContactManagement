@@ -1,3 +1,4 @@
+using CMS_API.GlobalExceptions;
 using CMS_API.Repository;
 using CMS_API.Services;
 
@@ -26,6 +27,9 @@ builder.Services.AddSingleton<JsonFileService>(_ => new JsonFileService("data/co
 builder.Services.AddSingleton<ContactRepository>();
 
 var app = builder.Build();
+
+// Register Custom Exception Middleware
+app.UseMiddleware<ExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

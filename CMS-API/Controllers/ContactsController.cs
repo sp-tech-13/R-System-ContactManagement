@@ -30,6 +30,7 @@ namespace CMS_API.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] Contact Contact)
         {
+            throw new ArgumentNullException("This is testing");
             _repository.Add(Contact);
             return CreatedAtAction(nameof(GetById), new { id = Contact.Id }, Contact);
         }
