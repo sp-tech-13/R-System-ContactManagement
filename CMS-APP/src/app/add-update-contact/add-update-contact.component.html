@@ -1,0 +1,42 @@
+<div class="container">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <!-- First Name -->
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" class="form-control input-text" placeholder="Enter First Name"
+                formControlName="firstName" />
+            <small *ngIf="contactForm.get('firstName')?.invalid && contactForm.get('firstName')?.touched"
+                class="text-danger">
+                First Name is required.
+            </small>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" class="form-control input-text" placeholder="Enter Last Name"
+                formControlName="lastName" />
+            <small *ngIf="contactForm.get('lastName')?.invalid && contactForm.get('lastName')?.touched"
+                class="text-danger">
+                Last Name is required.
+            </small>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control input-text" placeholder="Enter Email"
+                formControlName="email" />
+            <small *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched"
+                class="text-danger">
+                A valid email is required.
+            </small>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-success btn-block" [disabled]="contactForm.invalid">
+            {{action}} Contact
+        </button>
+        <button type="button" class="btn btn-secondary m-4" (click) = "Cancel()">Cancel</button>
+    </form>
+</div>

@@ -1,3 +1,32 @@
-<h3>Contacts APP</h3>
-<button type="button" class="btn btn-primary">Test Button</button>Step 7: Serve Your ApplicationRun your Angular application using the Angular CLI:
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <h3 class="app-title"> Contacts APP</h3>
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row justify-content-start">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <button class="btn btn-success mb-4 btn-new" *ngIf="!isToggled" (click)="toggleVariable()">New</button>
+            <app-add-update-contact 
+                *ngIf="isToggled" 
+                [isModified] = "isModified"
+                [contact] = "contact"
+                (contactAdded)="addContact($event)"
+                (contactCancel)="HideContact($event)">
+            </app-add-update-contact>
+            <app-contact-list 
+                *ngIf="!isToggled" 
+                [contacts]="contacts"
+                (editRequest) = "editContact($event)" 
+                (deleteRequest)="deleteContact($event)">
+            </app-contact-list>
+            
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
 <router-outlet />
