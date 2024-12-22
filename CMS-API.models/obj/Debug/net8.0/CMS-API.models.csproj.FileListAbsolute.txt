@@ -1,0 +1,12 @@
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\bin\Debug\net8.0\CMS-API.models.deps.json
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\bin\Debug\net8.0\CMS-API.models.dll
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\bin\Debug\net8.0\CMS-API.models.pdb
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.AssemblyInfoInputs.cache
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.AssemblyInfo.cs
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.csproj.CoreCompileInputs.cache
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.sourcelink.json
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.dll
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\refint\CMS-API.models.dll
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\CMS-API.models.pdb
+E:\Projects\R-System-L2\R-System-ContactManagement\CMS-API.models\obj\Debug\net8.0\ref\CMS-API.models.dll
