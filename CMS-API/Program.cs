@@ -1,5 +1,5 @@
 using CMS_API.GlobalExceptions;
-using CMS_API.Repository;
+using CMS_API.data;
 using CMS_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +24,7 @@ builder.Services.AddSwaggerGen();
 
 // Register services
 builder.Services.AddSingleton<JsonFileService>(_ => new JsonFileService("data/contacts.json"));
-builder.Services.AddSingleton<ContactRepository>();
+builder.Services.AddSingleton<ContactService>();
 
 var app = builder.Build();
 

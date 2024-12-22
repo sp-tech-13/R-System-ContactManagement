@@ -1,7 +1,7 @@
 ﻿using CMS_API.Models;
-using CMS_API.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using CMS_API.services.interfaces;
 
 namespace CMS_API.Controllers
 {
@@ -9,9 +9,9 @@ namespace CMS_API.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        private readonly ContactRepository _repository;
+        private readonly IContactService _repository;
 
-        public ContactsController(ContactRepository repository)
+        public ContactsController(IContactService repository)
         {
             _repository = repository;
         }
@@ -22,6 +22,9 @@ namespace CMS_API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var Contact = _repository.GetById(id);
             if (Contact == null) return NotFound();
             return Ok(Contact);
@@ -30,7 +33,8 @@ namespace CMS_API.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] Contact Contact)
         {
-            throw new ArgumentNullException("This is testing");
+            if(!ModelState.IsValid) { return BadRequest(ModelState); }
+
             _repository.Add(Contact);
             return CreatedAtAction(nameof(GetById), new { id = Contact.Id }, Contact);
         }
@@ -39,6 +43,9 @@ namespace CMS_API.Controllers
         public IActionResult Update(int id, [FromBody] Contact ContactObj)
         {
             if (id != ContactObj.Id) return BadRequest();
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
             var existing = _repository.GetById(id);
             if (existing == null) return NotFound();
@@ -50,6 +57,9 @@ namespace CMS_API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var existing = _repository.GetById(id);
             if (existing == null) return NotFound();
 
