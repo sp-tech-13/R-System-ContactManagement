@@ -2,13 +2,7 @@
   {
     "Id": 1,
     "FirstName": "Patel",
-    "LastName": "Piyushaben",
-    "Email": "piyushapatel1313@gmail.com"
-  },
-  {
-    "Id": 2,
-    "FirstName": "sanjay",
-    "LastName": "a patel",
-    "Email": "sanjaypatel1313@gmail.com"
+    "LastName": "Sanjay",
+    "Email": "Sanjay@gmail.com"
   }
 ]
