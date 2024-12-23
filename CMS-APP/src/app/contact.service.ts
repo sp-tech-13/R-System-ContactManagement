@@ -11,7 +11,7 @@ export class ContactService {
 
   constructor(private http: HttpClient) { }
 
-  private apiUrl = 'https://localhost:7109/api/contacts'; // Example API URL
+  private apiUrl = 'http://localhost:5183/api/contacts'; // Example API URL
 
   private contacts = new BehaviorSubject<Contact[]>([]);
   public contacts$ = this.contacts.asObservable();

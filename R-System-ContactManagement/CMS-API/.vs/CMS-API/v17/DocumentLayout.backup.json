@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|e:\\projects\\r-system-l2\\r-system-contactmanagement\\cms-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|e:\\projects\\r-system-l2\\r-system-contactmanagement\\cms-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|e:\\projects\\r-system-l2\\r-system-contactmanagement\\cms-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|e:\\projects\\r-system-l2\\r-system-contactmanagement\\cms-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C30745-C345-404F-A40F-A9745402C953}|..\\CMS-API.Tests\\CMS-API.Tests.csproj|e:\\projects\\r-system-l2\\r-system-contactmanagement\\cms-api.tests\\services\\contactservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|e:\\projects\\r-system-l2\\r-system-contactmanagement\\cms-api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E29EC64-1DAF-4797-81A9-885E5A9D29AE}|CMS-API.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T18:07:29.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwCYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:11:17.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T09:27:25.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T09:27:22.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwEgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:12:28.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactServiceTests.cs",
+              "DocumentMoniker": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API.Tests\\Services\\ContactServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\CMS-API.Tests\\Services\\ContactServiceTests.cs",
+              "ToolTip": "E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API.Tests\\Services\\ContactServiceTests.cs",
+              "RelativeToolTip": "..\\CMS-API.Tests\\Services\\ContactServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:10:11.22Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
