@@ -1,6 +1,8 @@
 using CMS_API.GlobalExceptions;
 using CMS_API.data;
 using CMS_API.Services;
+using CMS_API.data.interfaces;
+using CMS_API.services.interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,8 +25,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register services
-builder.Services.AddSingleton<JsonFileService>(_ => new JsonFileService("data/contacts.json"));
-builder.Services.AddSingleton<ContactService>();
+builder.Services.AddSingleton<IDataService>(_ => new JsonFileService("E:\\Projects\\R-System-L2\\R-System-ContactManagement\\CMS-API.data\\contacts.json"));
+builder.Services.AddTransient<IContactService, ContactService>();
 
 var app = builder.Build();
 

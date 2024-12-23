@@ -15,10 +15,18 @@ namespace CMS_API.Controllers
         {
             _repository = repository;
         }
-
+        /// <summary>
+        /// Get all the contacts
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult GetAll() => Ok(_repository.GetAll());
 
+        /// <summary>
+        /// Get contact by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,6 +38,12 @@ namespace CMS_API.Controllers
             return Ok(Contact);
         }
 
+        /// <summary>
+        /// create new contact
+        /// @contact: object with all the contact properties
+        /// </summary>
+        /// <param name="Contact"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Create([FromBody] Contact Contact)
         {
@@ -39,6 +53,12 @@ namespace CMS_API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = Contact.Id }, Contact);
         }
 
+        /// <summary>
+        /// update the contact by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="ContactObj"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] Contact ContactObj)
         {
@@ -54,6 +74,11 @@ namespace CMS_API.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// delete the contact by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
